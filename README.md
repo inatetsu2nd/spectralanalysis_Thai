@@ -61,3 +61,68 @@ Please contact:
 
 ### Author
 - [Tetsuya Inagaki](https://researchmap.jp/inatetsu25/)
+
+# Spectralanalysis_Thai
+### ภาพรวม
+
+ที่เก็บนี้ประกอบด้วยเนื้อหาสำหรับการบรรยายในประเทศไทยในหัวข้อ *“คู่มือการวิเคราะห์สเปกตรัมเชิงปฏิบัติ ตั้งแต่พื้นฐานถึงการประยุกต์ใช้”*  
+หัวข้อครอบคลุมการวิเคราะห์ข้อมูลด้วย Python, เคโมเมตริกส์, การเรียนรู้ของเครื่อง และการประยุกต์ใช้กับภาพไฮเปอร์สเปกตรัม
+
+เนื้อหานี้อ้างอิงจากหนังสือภาษาญี่ปุ่นชื่อ *"Spectral Analysis Practical Guide"* โดย ศ. Tetsuya Inagaki จากมหาวิทยาลัยนาโกย่า
+
+**สารบัญบท:**
+- บทที่ 1: พื้นฐานของการวิเคราะห์สเปกตรัม  
+- บทที่ 2: บทนำเกี่ยวกับการเขียนโปรแกรม Python  
+- บทที่ 3: สถิติพื้นฐานด้วย Python  
+- บทที่ 4: พีชคณิตเชิงเส้นด้วย Python  
+- บทที่ 5: การใช้ ChatGPT อย่างมีประสิทธิภาพ  
+- บทที่ 6: พื้นฐานของเคโมเมตริกส์  
+- บทที่ 7: เคโมเมตริกส์ขั้นประยุกต์  
+- บทที่ 8: การเตรียมข้อมูลสเปกตรัมเบื้องต้น  
+- บทที่ 9: พื้นฐานของการเรียนรู้ของเครื่อง  
+- บทที่ 10: การประมวลผลสเปกตรัมเชิงปฏิบัติ  
+- บทที่ 11: เคโมเมตริกส์และการเรียนรู้ของเครื่องเชิงปฏิบัติ  
+- บทที่ 12: การวิเคราะห์ข้อมูลภาพไฮเปอร์สเปกตรัม
+
+### โครงสร้างโฟลเดอร์
+- `dataChapter03`, `dataChapter04`, ..., `dataChapter12`: ข้อมูลที่ใช้ในแต่ละบท
+
+### โครงสร้างไฟล์
+ตั้งชื่อตามรูปแบบ `SpeAna(บท)_(หัวข้อ)_เนื้อหา.ipynb` ตัวอย่างเช่น:
+- `SpeAna00_tips.ipynb`: เคล็ดลับเกี่ยวกับการแปลงไฟล์และการใช้ LLM  
+- `SpeAna03_1-10_statistics.ipynb`: สถิติพื้นฐานด้วย Python  
+- `SpeAna04_1-3_linearalgebraANDdataframe.ipynb`: พีชคณิตเชิงเส้นและ DataFrame  
+- `SpeAna12_1_Imaging.ipynb`: การประยุกต์ใช้กับการถ่ายภาพ
+
+### การติดตั้งไลบรารี
+ใช้ไฟล์ `requirements.txt` ดังนี้:
+
+```bash
+cd C:\Users\YourUsername\Documents\PythonProjects\MyProject
+pip install -r requirements.txt
+```
+- `requirements.txt`  
+After downloading this file, open the Anaconda Prompt and navigate to the directory where the `requirements.txt` file is located.  
+For example, suppose the file is located in `C:\Users\YourUsername\Documents\PythonProjects\MyProject`.  
+You can install the listed libraries by following these steps:
+
+1. Open the Anaconda Prompt and use the `cd` command to move to the directory containing `requirements.txt`:  
+`cd C:\Users\USERNAME\Documents\PythonProjects\MyProject`
+
+2. Run the following command to install all libraries listed in the file:  
+`pip install -r requirements.txt`
+
+### Downloading the Data
+Click the green `< > Code` button on the top right of this page and select **Download ZIP**.
+
+### How to Use
+Ensure Python 3.x and all required libraries are installed.  
+Open files starting with `SpeAna` in Jupyter Notebook to run the code.
+
+### If You Cannot Download Files
+Please contact:  
+`inatetsu@agr.nagoya-u.ac.jp`
+
+### Author
+- [Tetsuya Inagaki](https://researchmap.jp/inatetsu25/)
+
