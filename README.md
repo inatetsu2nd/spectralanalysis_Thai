@@ -107,8 +107,8 @@ pip install -r requirements.txt
 คุณสามารถติดตั้งไลบรารีทั้งหมดที่ระบุไว้ได้โดยทำตามขั้นตอนนี้:
 
 1. เปิด Anaconda Prompt และใช้คำสั่ง `cd` เพื่อไปยังไดเรกทอรีที่มีไฟล์:
-
 `cd C:\Users\USERNAME\Documents\PythonProjects\MyProject`
+
 2. รันคำสั่งต่อไปนี้เพื่อติดตั้งไลบรารีทั้งหมดที่ระบุไว้ในไฟล์:  
 `pip install -r requirements.txt`
 
