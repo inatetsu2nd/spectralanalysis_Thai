@@ -4,7 +4,7 @@
 This repository contains materials for a lecture in Thailand titled *“A Practical Guide to Spectral Analysis from Fundamentals to Applications.”*  
 Topics include Python-based data analysis, chemometrics, machine learning, and hyperspectral imaging.
 
-The content is based on the Japanese book *"Spectral Analysis Practical Guide"* by Prof. Tetsuya Inagaki, Nagoya University.
+The content is based on the Japanese book *"Spectral Analysis Practical Guide"* by Tetsuya Inagaki, Nagoya University.
 
 **Chapters:**
 - Chapter 1: Fundamentals of Spectral Analysis  
