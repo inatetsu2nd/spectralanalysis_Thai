@@ -101,28 +101,29 @@ Please contact:
 cd C:\Users\YourUsername\Documents\PythonProjects\MyProject
 pip install -r requirements.txt
 ```
-- `requirements.txt`  
-After downloading this file, open the Anaconda Prompt and navigate to the directory where the `requirements.txt` file is located.  
-For example, suppose the file is located in `C:\Users\YourUsername\Documents\PythonProjects\MyProject`.  
-You can install the listed libraries by following these steps:
+### การติดตั้งไลบรารี (`requirements.txt`)
+หลังจากดาวน์โหลดไฟล์นี้ ให้เปิด **Anaconda Prompt** และไปยังโฟลเดอร์ที่เก็บไฟล์ `requirements.txt`  
+ตัวอย่างเช่น หากไฟล์อยู่ที่ `C:\Users\YourUsername\Documents\PythonProjects\MyProject`  
+คุณสามารถติดตั้งไลบรารีทั้งหมดที่ระบุไว้ได้โดยทำตามขั้นตอนนี้:
 
-1. Open the Anaconda Prompt and use the `cd` command to move to the directory containing `requirements.txt`:  
+1. เปิด Anaconda Prompt และใช้คำสั่ง `cd` เพื่อไปยังไดเรกทอรีที่มีไฟล์:
+
 `cd C:\Users\USERNAME\Documents\PythonProjects\MyProject`
-
-2. Run the following command to install all libraries listed in the file:  
+2. รันคำสั่งต่อไปนี้เพื่อติดตั้งไลบรารีทั้งหมดที่ระบุไว้ในไฟล์:  
 `pip install -r requirements.txt`
 
-### Downloading the Data
-Click the green `< > Code` button on the top right of this page and select **Download ZIP**.
+### การดาวน์โหลดข้อมูล
+คลิกปุ่มสีเขียว `< > Code` ที่มุมขวาบนของหน้านี้ แล้วเลือก **Download ZIP**
 
-### How to Use
-Ensure Python 3.x and all required libraries are installed.  
-Open files starting with `SpeAna` in Jupyter Notebook to run the code.
+### วิธีการใช้งาน
+ตรวจสอบให้แน่ใจว่าได้ติดตั้ง **Python 3.x** และไลบรารีที่จำเป็นทั้งหมดแล้ว  
+เปิดไฟล์ที่ขึ้นต้นด้วย `SpeAna` ใน **Jupyter Notebook** เพื่อรันโค้ด
 
-### If You Cannot Download Files
-Please contact:  
+### หากไม่สามารถดาวน์โหลดไฟล์ได้
+กรุณาติดต่อ:  
 `inatetsu@agr.nagoya-u.ac.jp`
 
-### Author
+### ผู้เขียน
 - [Tetsuya Inagaki](https://researchmap.jp/inatetsu25/)
+
 
