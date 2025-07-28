@@ -43,7 +43,7 @@ For example, suppose the file is located in `C:\Users\YourUsername\Documents\Pyt
 You can install the listed libraries by following these steps:
 
 1. Open the Anaconda Prompt and use the `cd` command to move to the directory containing `requirements.txt`:  
-`cd C:\Users\ユーザー名\Documents\PythonProjects\MyProject`
+`cd C:\Users\USERNAME\Documents\PythonProjects\MyProject`
 
 2. Run the following command to install all libraries listed in the file:  
 `pip install -r requirements.txt`
