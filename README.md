@@ -24,11 +24,22 @@ The content is based on the Japanese book *"Spectral Analysis Practical Guide"* 
 - `dataChapter03`, `dataChapter04`, ..., `dataChapter12`: Data for corresponding chapters
 
 ### File Structure
-Named as `SpeAna(Chapter)_(Section)_Topic.ipynb`, for example:
+All files are named using the format: `SpeAna(ChapterNumber)_(SectionNumber)_Description.ipynb`.  
+Below is a summary of each file:
 - `SpeAna00_tips.ipynb`: Tips on file conversion and LLM usage  
-- `SpeAna03_1-10_statistics.ipynb`: Basics of statistics with Python  
-- `SpeAna04_1-3_linearalgebraANDdataframe.ipynb`: Linear algebra and DataFrame  
-- `SpeAna12_1_Imaging.ipynb`: Applications to imaging
+- `SpeAna02_3-4_basic.ipynb`: Chapter 2, Sections 3–4 — Fundamentals of Python  
+- `SpeAna03_1-10_statistcs.ipynb`: Chapter 3, Sections 1–10 — Basic statistics and implementation in Python  
+- `SpeAna04_1-3_linearalgebraANDdataframe.ipynb`: Chapter 4, Sections 1–3 — Linear algebra and DataFrame handling  
+- `SpeAna06_1_CLSandILS.ipynb`: Chapter 6, Section 1 — Classical Least Squares (CLS) and Inverse Least Squares (ILS)  
+- `SpeAna07_1_PCA.ipynb`: Chapter 7, Section 1 — Principal Component Analysis (PCA)  
+- `SpeAna07_2_PLS.ipynb`: Chapter 7, Section 2 — Partial Least Squares Regression (PLS)  
+- `SpeAna08_1-4_pretreatment.ipynb`: Chapter 8, Sections 1–4 — Preprocessing of spectral data  
+- `SpeAna08_5_modules.ipynb`: Chapter 8, Section 5 — How to use Python modules  
+- `SpeAna09_1-6_machinelearning.ipynb`: Chapter 9, Sections 1–6 — Applications of machine learning  
+- `SpeAna10_1-9_practicaluse.ipynb`: Chapter 10, Sections 1–9 — Practical spectral manipulation techniques  
+- `SpeAna11_1-6_practicaluse.ipynb`: Chapter 11, Sections 1–6 — Practical applications of chemometrics and machine learning  
+- `SpeAna12_1_Imaging.ipynb`: Chapter 12, Section 1 — Applications to imaging data
+
 
 ### Library Installation
 Use the `requirements.txt` file:
@@ -88,11 +99,21 @@ Please contact:
 - `dataChapter03`, `dataChapter04`, ..., `dataChapter12`: ข้อมูลที่ใช้ในแต่ละบท
 
 ### โครงสร้างไฟล์
-ตั้งชื่อตามรูปแบบ `SpeAna(บท)_(หัวข้อ)_เนื้อหา.ipynb` ตัวอย่างเช่น:
-- `SpeAna00_tips.ipynb`: เคล็ดลับเกี่ยวกับการแปลงไฟล์และการใช้ LLM  
-- `SpeAna03_1-10_statistics.ipynb`: สถิติพื้นฐานด้วย Python  
-- `SpeAna04_1-3_linearalgebraANDdataframe.ipynb`: พีชคณิตเชิงเส้นและ DataFrame  
-- `SpeAna12_1_Imaging.ipynb`: การประยุกต์ใช้กับการถ่ายภาพ
+ไฟล์ทั้งหมดถูกตั้งชื่อตามรูปแบบ: `SpeAna(ChapterNumber)_(SectionNumber)_Description.ipynb`  
+ด้านล่างนี้คือสรุปเนื้อหาของแต่ละไฟล์:
+- `SpeAna00_tips.ipynb`: เคล็ดลับเกี่ยวกับการแปลงไฟล์และการใช้งาน LLM  
+- `SpeAna02_3-4_basic.ipynb`: บทที่ 2 ตอนที่ 3–4 — พื้นฐานของภาษา Python  
+- `SpeAna03_1-10_statistcs.ipynb`: บทที่ 3 ตอนที่ 1–10 — สถิติพื้นฐานและการใช้งานด้วย Python  
+- `SpeAna04_1-3_linearalgebraANDdataframe.ipynb`: บทที่ 4 ตอนที่ 1–3 — พีชคณิตเชิงเส้นและการใช้งาน DataFrame  
+- `SpeAna06_1_CLSandILS.ipynb`: บทที่ 6 ตอนที่ 1 — การถดถอยแบบ Classical Least Squares (CLS) และ Inverse Least Squares (ILS)  
+- `SpeAna07_1_PCA.ipynb`: บทที่ 7 ตอนที่ 1 — การวิเคราะห์องค์ประกอบหลัก (PCA)  
+- `SpeAna07_2_PLS.ipynb`: บทที่ 7 ตอนที่ 2 — การถดถอยแบบ Partial Least Squares (PLS)  
+- `SpeAna08_1-4_pretreatment.ipynb`: บทที่ 8 ตอนที่ 1–4 — การเตรียมข้อมูลสเปกตรัมเบื้องต้น  
+- `SpeAna08_5_modules.ipynb`: บทที่ 8 ตอนที่ 5 — การใช้งานโมดูลของ Python  
+- `SpeAna09_1-6_machinelearning.ipynb`: บทที่ 9 ตอนที่ 1–6 — การประยุกต์ใช้การเรียนรู้ของเครื่อง  
+- `SpeAna10_1-9_practicaluse.ipynb`: บทที่ 10 ตอนที่ 1–9 — เทคนิคการจัดการสเปกตรัมในทางปฏิบัติ  
+- `SpeAna11_1-6_practicaluse.ipynb`: บทที่ 11 ตอนที่ 1–6 — การประยุกต์ใช้เคโมเมตริกส์และการเรียนรู้ของเครื่องในทางปฏิบัติ  
+- `SpeAna12_1_Imaging.ipynb`: บทที่ 12 ตอนที่ 1 — การประยุกต์ใช้กับข้อมูลภาพ
 
 ### การติดตั้งไลบรารี
 ใช้ไฟล์ `requirements.txt` ดังนี้:
